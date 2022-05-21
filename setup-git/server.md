@@ -60,7 +60,8 @@ Download progress.
 All document can be found in gitea official site [here](https://docs.gitea.io/en-us/).
 * Create folder `C:\gitea-repositories\` to store all repositories create on the server. The directory can be change to safe place and MUST BE BACKED UP FREQUENTLY.
 * Create configuration file `C:\gitea-exe\custom\conf\app.ini`. Sample configuration file can be download [here](https://github.com/go-gitea/gitea/blob/main/custom/conf/app.example.ini).
-* Create a file to store gitea's configuration `C:\gitea-exe\custom\conf\app.ini`. Edit the file `C:\gitea-exe\custom\conf\app.ini` with you favorite editor - here I use notepad++. Copy and past sample config as below. NOTE: Must adjust configuration file follow documents [here](https://docs.gitea.io/en-us/config-cheat-sheet/) and [here](https://docs.gitea.io/en-us/config-cheat-sheet/) as your requirement.
+* Create a file to store gitea's configuration `C:\gitea-exe\custom\conf\app.ini`. Edit the file `C:\gitea-exe\custom\conf\app.ini` with you favorite editor - here I use notepad++. Copy and past sample config as below.  
+NOTE: Following configuration is just a sample. Must adjust configuration file follow documents [here](https://docs.gitea.io/en-us/config-cheat-sheet/) and [here](https://docs.gitea.io/en-us/config-cheat-sheet/) as your requirement.
 ```ini
 ; ; App name that shows in every page title
 APP_NAME = Genius git server
