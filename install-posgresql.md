@@ -52,12 +52,13 @@ Wait and finish installation.
 **Note: Computer my restart to apply the changes.**
 
 ### Test PostgreSQL
-You can use pgAdmin win all document can be found [here](https://www.pgadmin.org/docs/pgadmin4/development/getting_started.html).
-I use HeidiSQL as my favour. It's an open source tool, lightweight yet powerful and easy to use. HeidiSQL can be downloaded [here](https://www.heidisql.com/).
+You can use pgAdmin with all document can be found [here](https://www.pgadmin.org/docs/pgadmin4/development/getting_started.html).  
+I use HeidiSQL as my favour. It's an open source tool, lightweight yet powerful and easy to use. HeidiSQL can be downloaded [here](https://www.heidisql.com/).  
 
 Open HeidiSQL.  
 ![HeidiSQL](setup-git/images/heidisql-s1.png)  
 
-Click `New` to add a connection session. Input information as the image. Imput user name `posgres`, password `use password you enter at installation step`. Click `Open`, if all information is correct and PostgreSQL install OK, you should go into manage page.
+Click `New` to add a connection session. Input information as the image. Input user name `posgres`, password `use password you enter at installation step`.  
+Click `Open`, if all information is correct and PostgreSQL install OK, you should go into manage page.
 ![HeidiSQL connection](setup-git/images/heidisql-s2.png)  
 ![HeidiSQL manage](setup-git/images/heidisql-s3.png)  

@@ -3,10 +3,11 @@
 ## Install git on Windows (Win dow 7, Windows 10, Windows 11)
 
 ### Download git-scm (use 64-bit version)
-* Latest git installation file can be downloaded [here](https://git-scm.com/). Download manually and install.
+Latest git installation file can be downloaded [here](https://git-scm.com/).  
+* Download manually and install.
 ![git home page](images/download-git.png)
 ![git home page](images/download-git-2.png)
-* Or download using PowerShell.
+* Or download using PowerShell.  
 ```sh
 >mkdir D:\dit-docs
 >cd d:\git-docs
@@ -14,10 +15,11 @@
 >.\git-scm.exe
 ```
 
-![git downloading](images/git-downloading.png)
-Follow installing step (Basically click Next following by Next).
+![git downloading](images/git-downloading.png)    
 
 ---
+Follow installing steps (Basically click Next following by Next).  
+
 ![Install git - step 1](images/git-install-s1.png)
 ![Install git - step 2](images/git-install-s2.png)
 ![Install git - step 3](images/git-install-s3.png)
@@ -27,11 +29,11 @@ Follow installing step (Basically click Next following by Next).
 ![Install git - finished](images/git-install-s7.png)
 
 ### Test git installation
-Run following command to check if git installed correctly.
+Run following command to check if git installed correctly.  
 ```sh
 >git --version
 ```
 
-You should see result like this.
+You should see result like this.  
 ![Git test](images/git-test.png)
 
