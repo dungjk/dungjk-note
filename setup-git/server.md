@@ -29,7 +29,7 @@ Full document can be found [here](https://docs.gitea.io/en-us/).
 - [Install PostgreSQL.](../install-posgresql.md)
   - Create database `gitea-database` on PostgreSQL server, leave it blank. This will be used in configuration at following steps. (Use HeidiSQL - see [here](../install-posgresql.md#test-postgresql))
   ![Create database](images/create-gitea-database.png)
-  - Connect to `gitea-database` to verify it created.
+  - Connect to `gitea-database` to verify it created. Leave the database blank, gitea will automatically init the database later.
   ![gitea-database test](images/postgre-database-connection.png)
 
 
